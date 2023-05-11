@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>个人简历</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: rgb(37, 114, 126);
+        /* background-color: #c0c9ee; */
+        background-image: url('https://lkw-edu.oss-cn-chengdu.aliyuncs.com/2022/09/%E5%B4%A9%E5%B4%A9%E5%B4%A9.jpeg');
+        background-position: 50% 30%; 
+
+        background-repeat: no-repeat;
+        
+    background-size:cover;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 50px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 30px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity:0.8;
+      }
+      .section {
+        margin-top: 50px;
+      }
+      .section-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .experience {
+        margin-top: 30px;
+        /* 取消链接样式(下划线和颜色) */
+        text-decoration: none;
+        color: inherit;
+      }
+      .experience .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .experience .date {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      .skills {
+        margin-top: 30px;
+      }
+      .skills ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .skills li {
+        display: inline-block;
+        background-color: #ddd;
+        color: #333;
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        
+        
+
+      }
+      .skills li:hover{
+        display: inline-block;
+        background-color: #ddd;
+        color: rgb(114, 107, 107);
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        
+      }
+      .contact {
+        margin-top: 30px;
+      }
+      .contact ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .contact li {
+        margin-bottom: 10px;
+      }
+      .contact li a {
+        display: block;
+        color: rgb(37, 114, 126);
+        font-size: 16px;
+        text-decoration: none;
+        transition: color 0.15s ease-in-out;
+      }
+      .contact li a:hover {
+        color: #00bfff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>个人简历</h1>
+      <div class="section">
+        <h2 class="section-title">个人信息</h2>
+        <p><strong>姓名：</strong>王博</p>
+        <p><strong>性别：</strong>男</p>
+        <p><strong>出生日期：</strong>2002.9.11</p>
+        <p><strong>手机号：</strong>18733912316</p>
+        <p><strong>邮箱：</strong>2105727277@qq.com</p>
+      </div>
+      <div class="section">
+        <h2 class="section-title">学习经历</h2>
+        <a href="testbackEnd.html" class="experience">
+          <div class="title">后端开发</div>
+          <div class="date">2020年12月-至今</div>
+          <p>内容</p>
+          <ul>
+            <li>springboot,springcloud技术</li>
+            <!-- <li>MySQL,Redis,elasticsearch</li>
+            <li>CentOS,Docker,Nacos,Git,RabbitMQ</li> -->
+          </ul>
+        </a>
+      <a href="testhardware.html" class="experience">
+        <div class="title" >硬件开发</div>
+        <div class="date">2021年7月-2023年1月</div>
+        <p>内容</p>
+        <ul>
+          <li>esp8266,esp32</li>
+          <!-- <li>wifi,蓝牙,串口,模拟,数字</li>
+          <li>GPS,水质检测,摄像头,舵机,继电器,单片机服务器</li> -->
+        </ul>
+      </a>
+    </div>
+    <div class="section">
+      <h2 class="section-title">其他技能</h2>
+      <div class="skills">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="section-title">联系方式</h2>
+      <div class="contact">
+        <ul>
+          <li><a href="tel:13XXXXXX">电话:11111111111</a></li>
+          <li><a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2279719702&website=www.oicqzone.com">QQ:222222222222</a></li>
+          <li><a href="https://github.com/like-wen">GitHub:123123123</a></li>
+          <li><a href="https://blog.csdn.net/m0_52070517?spm=1018.2226.3001.5343">CSDN: meiyou </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
